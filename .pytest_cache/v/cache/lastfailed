@@ -1,0 +1,14 @@
+{
+  "tests/test_order_create.py::TestOrderCreate::test_create_order_with_auth": true,
+  "tests/test_order_create.py::TestOrderCreate::test_create_order_without_auth": true,
+  "tests/test_order_create.py::TestOrderCreate::test_create_order_with_ingredients": true,
+  "tests/test_order_create.py::TestOrderCreate::test_create_order_without_ingredients": true,
+  "tests/test_order_create.py::TestOrderCreate::test_create_order_invalid_hash": true,
+  "tests/test_user_create.py::TestUserCreate::test_create_unique_user": true,
+  "tests/test_user_create.py::TestUserCreate::test_create_existing_user": true,
+  "tests/test_user_create.py::TestUserCreate::test_create_user_missing_field[email]": true,
+  "tests/test_user_create.py::TestUserCreate::test_create_user_missing_field[password]": true,
+  "tests/test_user_create.py::TestUserCreate::test_create_user_missing_field[name]": true,
+  "tests/test_user_login.py::TestUserLogin::test_login_valid": true,
+  "tests/test_user_login.py::TestUserLogin::test_login_invalid": true
+}
